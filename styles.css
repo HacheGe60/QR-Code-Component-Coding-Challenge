@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 15px;
+  color: lightgray;
+}
+
+#bgc {
+  font-family: Outfit, sans-serif;
+  background-color: rgb(213, 225, 239);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card-size {
+  width: 18rem !important;
+  height: 28rem !important;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: aqua !important;
+  }
+  .container {
+    box-sizing: content-box;
+    width: 375px !important;
+    height: 100% !important;
+    background-color: rgb(213, 225, 239) !important;
+  }
+}
